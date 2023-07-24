@@ -1,0 +1,90 @@
+.bed{
+    padding-top: 3%;
+    padding-left: 10%;
+}
+.sty{
+    font-size: 2rem;
+    font-family: Verdana, sans-serif;
+    padding-bottom: 1rem;
+}
+.about1{
+    width: 75rem;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.design1{
+    font-family: Verdana, sans-serif;
+    padding-bottom: 1rem;
+}
+.ig{
+    padding-left: 10%;
+    padding-bottom: 15%;
+}
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card1{
+    width: 18rem;
+  }
+
+.dir{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5%;
+}
+.price {
+  color: grey;
+  font-size: 18px;
+}
+/* bedpage.css */
+
+
+/* Additional responsive styles as needed */

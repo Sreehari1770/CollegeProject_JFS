@@ -1,0 +1,124 @@
+.stycart{
+    float: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    width: 100%;
+    /* width: 100%; */
+}
+.word{
+    font-size: 2.5rem;
+    font-family: Verdana, sans-serif;
+    width: 100%;
+}
+.cont1{
+    width: 100%;
+    padding-right: 3%;
+    padding-left: 5%;
+    display: flex;
+    padding-bottom: 1%;
+   
+}
+.inside{
+    /* border-color: black 5px 5px ; */
+    width: 100%;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+.insidelogo{
+    float: right;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+}
+.bord{
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+.rec{
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+.recdesign{
+    padding-top: 4%;
+}
+/* cart.css */
+
+.cart-container {
+    /* max-width: 600px; */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .cart-item {
+    margin-bottom: 10px;
+  }
+  
+  .cart-item-name {
+    font-weight: bold;
+  }
+  
+  .cart-item-price {
+    color: #666;
+  }
+  .cart-main{
+    width: 100%;
+    padding-right: 3%;
+    padding-left: 5%;
+    padding-bottom: 3%  ;
+  }
+  .cart-item-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  .cart-item-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+  }
+  
+  .cart-item-button:hover {
+    background-color: #d32f2f;
+  }
+  .remove-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 7%;
+  }
+  
+  .increment-button {
+    margin-left: 10px;
+    /* padding: 5px 10px; */
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 3%;
+  }
+  
+  .decrement-button {
+    margin-left: 10px;
+    /* padding: 5px 10px; */
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 3%;
+  }

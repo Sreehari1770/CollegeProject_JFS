@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+  .row2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6.5%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+  }
+  /* Create four equal columns that floats next to each other */
+  .column2 {
+    /* float: left; */
+    width: 25%;
+    padding: 10px;
+    justify-content: center;
+    /* height: 300px; Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column2{
+      width: 100%;
+    }
+  }
+  #service{
+    /* float: left; */
+    padding-left: 6.5%;
+  }
+  
