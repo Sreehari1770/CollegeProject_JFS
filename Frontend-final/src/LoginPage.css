@@ -1,0 +1,53 @@
+.container1{
+    width: 450px; 
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .left1 {
+    left: 0;
+  
+    color:white;
+    background-image: url("D:\ReactApp\CP-Projects\furniturestore\src\background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+  .right1 {
+    right: 0;
+    background-color:whitesmoke;
+  }
+ 
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  .login-page-space{
+    display: flex;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .split {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  

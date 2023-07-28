@@ -1,0 +1,87 @@
+/* Global styles (can be adjusted based on your design preferences) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for the product container */
+  .dir {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  /* Styles for individual product cards */
+  .card1 {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .price {
+    font-weight: bold;
+    color:black;
+    padding-top: 2px ;
+    width: fit-content;
+    background-color: #ffce00;
+    /* border: 1px solid black; */
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 5px 5px 5px 0px #e60f00;
+  }
+  
+  .card-text {
+    margin-bottom: 10px;
+  }
+  
+  #btn1 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    width: fit-content;
+  }
+  
+  #btn1:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Clearfix for the cards to properly wrap in a row */
+  @media screen and (max-width: 992px) {
+    .card1 {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+  
+  /* Adjust for smaller screens */
+  @media screen and (max-width: 576px) {
+    .card1 {
+      flex-basis: calc(100% - 20px);
+    }
+  }
+  

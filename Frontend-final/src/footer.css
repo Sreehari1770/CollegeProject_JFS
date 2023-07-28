@@ -1,0 +1,40 @@
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    /* border-top: 1px solid black; */
+    background-attachment: fixed;
+  }
+  
+  .footer_link {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .footer_link:hover {
+    color: burlywood;
+  }
+  
+  .footer_logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .footer_social {
+    margin-top: 20px;
+  }
+  
+  .footer_social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    color:black;
+    font-size: 20px;
+  }
+  
+  .footer_social-icon:hover {
+    color: burlywood;
+  }
+  

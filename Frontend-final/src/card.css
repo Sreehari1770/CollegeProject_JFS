@@ -1,0 +1,119 @@
+/* .cad{
+    display: flex;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+ 
+  .column1 {
+
+    width: 29%;
+    padding-left: 15px;
+    justify-content: center;
+  }
+  
+ 
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .row1 {
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .Card {
+      max-width: 100%;
+    }
+  
+    .row1 {
+      flex-direction: column;
+      width: fit-content;
+    }
+  } */
+
+  /* card.css */
+
+/* Base styles for the page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.column1 {
+  flex: 1;
+  margin: 10px;
+  /* align-items: center; */
+  padding-left: 2%;
+}
+
+/* Card styles */
+.Card {
+  max-width: 345px;
+}
+
+.CardMedia {
+  height: 140px;
+}
+
+.CardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.CardActions {
+  display: flex;
+  justify-content: center;
+}
+
+.Button {
+  margin: 10px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .row1 {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Card {
+    max-width: 90%; /* Increase the width to 90% of the screen width */
+  }
+
+  .row1 {
+    flex-direction: column;
+  }
+}
+
+/* Add more media queries as needed for other screen sizes */
+
+
+
+
+
+
+

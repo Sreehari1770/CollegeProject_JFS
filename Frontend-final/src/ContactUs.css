@@ -1,0 +1,36 @@
+.contact{
+    width:70rem;
+    padding-top: 5%;
+    padding-bottom: 1rem;
+    padding-left: 10%;
+}
+.abt{
+    font-size: 2.5rem;
+    font-family: Verdana, sans-serif;
+    padding-bottom: 1rem;
+}
+.continfo{
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 12%;
+}
+.info-inside{
+    display: flex;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-bottom: 2%;
+}
+.email{
+    float: left;
+}
+.num{
+    float:right;
+}
+.ctus{
+    font-size: 1rem;
+    font-family: Verdana, sans-serif;
+}
